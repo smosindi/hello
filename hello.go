@@ -2,13 +2,15 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/smosindi/stringutil"
 )
+
+var name = ""
 
 func main() {
 
-	fmt.Printf(stringutil.Reverse("!ssoG ,olleH"))
-	fmt.Printf("\n")
+	//fmt.Printf(stringutil.Reverse("!ssoG ,olleH"))
+	fmt.Println("Enter name")
+	fmt.Scan(&name)
+	fmt.Println("Hello my name is : ", name)
 
 }
